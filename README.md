@@ -6,6 +6,10 @@ Inspiration
 
 This project is named after the 19th-century mathematician William Shanks, who is famous for his meticulous work in calculating the decimal expansions of prime reciprocals by hand. Shanks dedicated much of his life to these computations, paving the way for a deeper understanding of decimal periodicity and number theory long before modern computational tools were available.
 
+I watched a video of Australian Mathematician Matt Parker(�� The Reciprocals of Primes - Numberphile) where he took same topic and elaborated but the thing that caught my attention was his own ShanksBot he created using python, I determined to create my own version in Java and after researching I found out there wasn�t many options available and being an Electronics major student somewhere in Bengal, India, my cultured brain couldn�t stop me from making a fresh new bot on my own�
+
+
+
 About ShanksBot
 
 ShanksBot calculates the number of non-repeating digits in the decimal expansion of the reciprocal of prime numbers. Given any prime number, the bot outputs the count of unique, non-repeating digits before the cycle begins. This project highlights the intricate structure of prime reciprocals and sheds light on patterns that continue to intrigue mathematicians. Basically it would do the same thing with the prime numbers given to it as what William Shanks would have done but in seconds (check it out yourself, there is a time counter for each iteration of the program).
