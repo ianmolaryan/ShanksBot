@@ -12,7 +12,7 @@ I watched a video of Australian Mathematician Matt Parker(�� The Reciprocals
 
 About ShanksBot
 
-ShanksBot calculates the number of non-repeating digits in the decimal expansion of the reciprocal of prime numbers. Given any prime number, the bot outputs the count of unique, non-repeating digits before the cycle begins. This project highlights the intricate structure of prime reciprocals and sheds light on patterns that continue to intrigue mathematicians. Basically it would do the same thing with the prime numbers given to it as what William Shanks would have done but in seconds (check it out yourself, there is a time counter for each iteration of the program).
+ShanksBot calculates the number of non-repeating digits in the decimal expansion of the reciprocal of prime numbers. Given any prime number, the bot outputs the count of unique, non-repeating digits before the cycle begins. This project highlights the intricate structure of prime reciprocals and sheds light on patterns that continue to intrigue mathematicians. Basically it would do the same thing with the prime numbers given to it as what William Shanks would have done but in seconds (check it out yourself, there is a time counter for each iteration of the program!!).
 
 
 
