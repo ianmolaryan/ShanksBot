@@ -6,7 +6,7 @@ Inspiration
 
 This project is named after the 19th-century mathematician William Shanks, famous for his meticulous work in calculating the decimal expansions of prime reciprocals by hand. Shanks dedicated much of his life to these computations, paving the way for a deeper understanding of decimal periodicity and number theory long before modern computational tools were available.
 
-I watched a video of Australian Mathematician Matt Parker(�� The Reciprocals of Primes - Numberphile) where he took the same topic and elaborated but the thing that caught my attention was his own ShanksBot he created using Python, I determined to create my version in Java and after researching I found out there wasn't many options available and being an Electronics major student somewhere in Bengal, India, my cultured brain couldn't stop me from making a fresh new bot on my own�
+I watched a video of Australian Mathematician Matt Parker where he took the same topic and elaborated but the thing that caught my attention was his own ShanksBot he created using Python, I determined to create my version in Java and after researching I found out there wasn't many options available and being an Electronics major student somewhere in Bengal, India, my cultured brain couldn't stop me from making a fresh new bot on my own
 
 
 
