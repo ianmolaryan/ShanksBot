@@ -32,4 +32,4 @@ Why This Project?
 Prime numbers are fundamental in mathematics due to their unique properties and applications in areas such as cryptography and signal processing. Inspired by William Shanks' dedication to uncovering the secrets of prime reciprocals, this project brings his work into the digital age, making it accessible and interactive for enthusiasts and students alike.
 
 
-Also, Maths + Coding; what else do you need?
+Also, Maths + Coding is fun; what else do you need?
