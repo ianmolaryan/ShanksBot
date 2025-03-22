@@ -44,11 +44,11 @@ java ShanksBot
 ## 📌 Example Output
 
 ```bash
-Enter a prime number: 66851
-Prime number: 66851
-Precision used: 133702
-Length of repeating part: 66850
-Calculation execution time: 0.8301201 seconds
+Enter a prime number:           66851
+Prime number:                   66851
+Precision used:                 133702
+Length of repeating part:       66850
+Calculation execution time:     0.7783879 seconds
 ```
 
 ---
