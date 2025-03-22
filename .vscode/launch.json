@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "ShanksBot",
+      "request": "launch",
+      "mainClass": "ShanksBot",
+      "projectName": "ShanksBot_java_1aeb917b"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

@@ -41,27 +41,28 @@ public class ShanksBot
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a prime number:           ");
-        int prime = sc.nextInt();
-        
-        if (!isPrime(prime)) {
-            System.out.println(prime + " is not a prime number. Exiting.");
-            return;
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter a prime number:           ");
+            int prime = sc.nextInt();
+            
+            if (!isPrime(prime)) {
+                System.out.println(prime + " is not a prime number. Exiting.");
+                return;
+            }
+            
+            // Choose a precision high enough for the repeating cycle; using denom * 2 for demonstration.
+            int precision = prime * 2;
+            
+            long startTime = System.nanoTime();
+            int repeatingLength = countRepeatingDecimalLength(prime, precision);
+            long endTime = System.nanoTime();
+            
+            double durationInSeconds = (endTime - startTime) / 1_000_000_000.0;
+            
+            System.out.println("Prime number:                   " + prime);
+            System.out.println("Precision used:                 " + precision);
+            System.out.println("Length of repeating part:       " + repeatingLength);
+            System.out.println("Calculation execution time:     " + durationInSeconds + " seconds");
         }
-        
-        // Choose a precision high enough for the repeating cycle; using denom * 2 for demonstration.
-        int precision = prime * 2;
-        
-        long startTime = System.nanoTime();
-        int repeatingLength = countRepeatingDecimalLength(prime, precision);
-        long endTime = System.nanoTime();
-        
-        double durationInSeconds = (endTime - startTime) / 1_000_000_000.0;
-        
-        System.out.println("Prime number:                   " + prime);
-        System.out.println("Precision used:                 " + precision);
-        System.out.println("Length of repeating part:       " + repeatingLength);
-        System.out.println("Calculation execution time:     " + durationInSeconds + " seconds");
     }
 }
