@@ -30,7 +30,7 @@ ShanksBot is a **Java-based tool** that analyzes the decimal expansion of prime 
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-github-username/ShanksBot.git
+git clone https://github.com/ianmolaryan/ShanksBot_java.git
 cd ShanksBot
 
 # Compile & Run
