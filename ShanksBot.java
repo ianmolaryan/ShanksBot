@@ -42,7 +42,7 @@ public class ShanksBot
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a prime number: ");
+        System.out.print("Enter a prime number:           ");
         int prime = sc.nextInt();
         
         if (!isPrime(prime)) {
@@ -59,9 +59,9 @@ public class ShanksBot
         
         double durationInSeconds = (endTime - startTime) / 1_000_000_000.0;
         
-        System.out.println("Prime number: " + prime);
-        System.out.println("Precision used: " + precision);
-        System.out.println("Length of repeating part: " + repeatingLength);
-        System.out.println("Calculation execution time: " + durationInSeconds + " seconds");
+        System.out.println("Prime number:                   " + prime);
+        System.out.println("Precision used:                 " + precision);
+        System.out.println("Length of repeating part:       " + repeatingLength);
+        System.out.println("Calculation execution time:     " + durationInSeconds + " seconds");
     }
 }
