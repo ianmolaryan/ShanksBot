@@ -29,22 +29,26 @@ ShanksBot is a **Java-based tool** that analyzes the decimal expansion of prime 
 ## 🚀 Installation & Usage
 
 ```bash
+
 # Clone the repo
 git clone https://github.com/ianmolaryan/ShanksBot_java.git
 cd ShanksBot
 
+
 # Compile & Run
 javac ShanksBot.java
 java ShanksBot
+
 ```
 
 ## 📌 Example Output
 
 ```bash
-Enter a prime number: 7
-Decimal Expansion: 0.142857 (Repeating Cycle: 142857)
-Non-repeating digits: 0
-Time taken: 12ms
+Enter a prime number: 66851
+Prime number: 66851
+Precision used: 133702
+Length of repeating part: 66850
+Calculation execution time: 0.8301201 seconds
 ```
 
 ---
