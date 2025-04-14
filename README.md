@@ -16,7 +16,7 @@ This project is inspired by **William Shanks**, a mathematician who manually com
 
 ## 🔍 What is ShanksBot?
 
-ShanksBot is a **Java-based tool** that analyzes the decimal expansion of prime reciprocals and calculates the **number of unique, non-repeating digits** before the decimal cycle begins.
+ShanksBot is a tool that analyzes the decimal expansion of prime reciprocals and calculates the **number of unique, non-repeating digits** before the decimal cycle begins.
 
 ### 🔥 Key Features
 ✅ Computes the decimal expansion of **any prime number** 🔢  
